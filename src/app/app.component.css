@@ -1,0 +1,28 @@
+.container {
+  margin: 0 auto;
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+button {
+  background: gainsboro;
+  font-family: monospace;
+  font-size: 18px;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.timer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: monospace;
+}
